@@ -13,5 +13,7 @@ Pod::Spec.new do |s|
     s.author             = { "jianqiang.bao" => "16230091@qq.com" }
     s.source       = { :git => "https://github.com/BaoBaoJianqiang/Configue_a.git", :tag => "Configue0.0.5" }
 
+    s.source_files  = "**/*.{h}"
+
     s.ios.vendored_library = 'libConfigue.a'
 end
